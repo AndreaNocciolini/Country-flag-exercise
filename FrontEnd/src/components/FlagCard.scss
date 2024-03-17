@@ -1,0 +1,21 @@
+.FlagCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100vw / 6);
+    background-color: grey;
+    margin: 10px;
+    border-radius: 15px;
+    ul {
+        margin: 0;
+        padding: 10px;
+        list-style-type: none;
+        li {
+            width: 100%;
+            img {
+                width: 300px;
+                height: 183px;
+            }
+        }
+    }
+}
